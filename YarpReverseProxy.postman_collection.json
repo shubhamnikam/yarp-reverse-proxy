@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "d004cc9e-27d8-47b0-969d-b5589d2f73b7",
+		"name": "YarpReverseProxy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11510231"
+	},
+	"item": [
+		{
+			"name": "order-web-getall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/order/getall",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"order",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order-web-create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/order/create/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"order",
+						"create",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order-mobile-getall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/mobile/api/Order/GetAll",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"mobile",
+						"api",
+						"Order",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order-mobile-create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/mobile/api/order/create/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"mobile",
+						"api",
+						"order",
+						"create",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment-web-getall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/payment/getall",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"payment",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment-web-create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/payment/create/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"payment",
+						"create",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
